@@ -72,7 +72,6 @@ public struct NodeGraphEditorView<Presentation>: View where Presentation: Presen
     }
 }
 
-// MARK: Node Views
 
 internal struct NodesView<Presentation>: View where Presentation: PresentationProtocol {
     typealias Node = Presentation.Node
